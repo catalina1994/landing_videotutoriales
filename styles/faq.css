@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+.faq {
+  padding: 40px 10px;
+  padding-top: 0;
+}
+
+.faq__titulo {
+  text-align: center;
+  font-family: "HelveticaRounded LT Std Bd", sans-serif;
+  color: #20a6ff;
+  margin-bottom: 30px;
+  font-size: 22px !important;
+}
+
+.faq .panel-heading {
+  color: #20a6ff;
+  border: 1px solid #20a6ff !important;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.faq__nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none !important;
+  font-weight: 600;
+  color: #20a6ff !important;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 15px;
+}
+
+.faq__nombre__pregunta {
+  color: #20a6ff !important;
+}
+
+.faq .collapsed .flechaDespliegue {
+  min-width: 15px;
+  width: 15px;
+  height: 15px;
+  border: solid #20a6ff;
+  border-width: 4px 4px 0 0;
+  margin-left: 20px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  border-radius: 2px;
+  -webkit-transition: all linear 150ms;
+  transition: all linear 150ms;
+}
+
+.faq .flechaDespliegue {
+  min-width: 15px;
+  width: 15px;
+  height: 15px;
+  border: solid #20a6ff;
+  border-width: 0 4px 0 0;
+  margin-left: 20px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border-radius: 2px;
+  -webkit-transition: all linear 150ms;
+  transition: all linear 150ms;
+}
+
+.faq .panel-default {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faq__cuerpo {
+  padding: 10px 20px;
+}
+
+.faq__cuerpo > ul {
+  padding-left: 20px;
+}
+
+.faq__cuerpo > ul > li {
+  font-size: 14px !important;
+  color: #868686;
+  list-style-type: disc !important;
+  padding: 10px 0;
+}
+
+.faq__cuerpo > ul > li::marker {
+  color: #20a6ff !important;
+}
+
+.panel-heading a::before {
+  content: '' !important;
+}
+/*# sourceMappingURL=faq.css.map */

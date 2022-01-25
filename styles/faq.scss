@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+$cyan: #20a6ff;
+$helveticaRounded: 'HelveticaRounded LT Std Bd', sans-serif;
+$fontOpen: 'Open Sans', sans-serif;
+$gris: #868686;
+
+.faq {
+    padding: 40px 10px;
+    padding-top: 0;
+    &__titulo {
+        text-align: center;
+        font-family: $helveticaRounded;
+        color: $cyan;
+        margin-bottom: 30px;
+        font-size: 22px !important;
+    }
+    & .panel-heading {
+        color: $cyan;
+        border: 1px solid $cyan !important;
+        background: #fff;
+        border-radius: 5px;
+    }
+    &__nombre {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none !important;
+        font-weight: 600;
+        color: $cyan !important;
+        font-family: $fontOpen;
+        padding: 20px 15px;
+
+        &__pregunta {
+            color: $cyan !important;
+        }
+    }
+    & .collapsed {
+        & .flechaDespliegue {
+            min-width: 15px;
+            width: 15px;
+            height: 15px;
+            border: solid $cyan;
+            border-width: 4px 4px 0 0;
+            margin-left: 20px;
+            transform: rotate(135deg);
+            border-radius: 2px;
+            transition: all linear 150ms;
+        }
+    }
+    .flechaDespliegue {
+        min-width: 15px;
+        width: 15px;
+        height: 15px;
+        border: solid $cyan;
+        border-width: 0 4px 0 0;
+        margin-left: 20px;
+        transform: rotate(90deg);
+        border-radius: 2px;
+        transition: all linear 150ms;
+    }
+    & .panel-default {
+        border: none;
+        box-shadow: none;
+    }
+    &__cuerpo {
+        padding: 10px 20px;
+        & > ul {
+            padding-left: 20px;
+            & > li {
+                font-size: 14px !important;
+                color: $gris;
+                list-style-type: disc !important;
+                padding: 10px 0;
+
+                &::marker {
+                    color: $cyan !important;
+                }
+            }
+        }
+    }
+}
+.panel-heading a::before {
+    content: '' !important;
+}

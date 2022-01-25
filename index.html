@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous"
+        />
+        <!--     <link
+            href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+            rel="stylesheet"
+        /> -->
+
+        <link rel="stylesheet" href="/styles/global.css" />
+        <link rel="stylesheet" href="/styles/videotutoriales.css" />
+        <title>Videotutoriales</title>
+    </head>
+    <body>
+        <header class="bannertut">
+            <div class="centrado bannertut__content">
+                <h1>Aprende cómo realizar tus operaciones en HOLABANK</h1>
+            </div>
+        </header>
+        <main class="tutorialesContent centrado">
+            <div class="tutorialesContent__tabs">
+                <a id="bancaDigital" class="boton botonActivo">Banca Digital</a>
+                <a id="banbifApp" class="boton">BanBif App </a>
+            </div>
+            <div class="tutorialesContent__mobile">
+                <select
+                    class="tutorialesContent__mobile__option"
+                    name="tipo"
+                    id="opcion"
+                    onchange="seleccionandoOpcion()"
+                >
+                    <option value="0" selected>Banca Digital</option>
+                    <option value="1">BanBif App</option>
+                </select>
+            </div>
+            <div class="tutoriales">
+                <h3 id="tituloTutorial" class="tutoriales__titulo"></h3>
+                <p id="descriptionTutorial" class="tutoriales__text"></p>
+                <div
+                    class="panel-group tutorialesContenedor"
+                    id="accordion"
+                    role="tablist"
+                    aria-multiselectable="true"
+                ></div>
+            </div>
+        </main>
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- bootstrap -->
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"
+        ></script>
+        <!-- data -->
+        <script src="/js/data/tutoriales.js"></script>
+        <script src="/js/function/pasos.js"></script>
+    </body>
+</html>

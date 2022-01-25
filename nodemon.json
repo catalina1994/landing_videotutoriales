@@ -1,0 +1,13 @@
+{
+    "ignore": [
+        "./*.test.ts",
+        "./*.spec.ts",
+        ".git",
+        "node_modules",
+        "build",
+        "dist"
+    ],
+    "watch": ["./js-dev/**/*.js"],
+    "exec": "npm run compilar",
+    "ext": "js,json,ts,ejs,tsx,jsx,css"
+}

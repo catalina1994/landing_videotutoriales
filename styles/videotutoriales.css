@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+.bannertut {
+  background-color: #20a6ff;
+  height: 300px;
+}
+
+.bannertut__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.bannertut__content > h1 {
+  font-size: 32px;
+  color: #fff;
+  font-family: "HelveticaRounded LT Std Bd", sans-serif;
+  font-weight: 700;
+  max-width: 450px;
+  text-align: center;
+}
+
+.tutorialesContent {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tutorialesContent__mobile {
+  width: 100%;
+}
+
+.tutorialesContent__mobile__option {
+  background-color: #20a6ff;
+  background-image: url(https://www.banbif.com.pe/Portals/0/íconos/dropdown.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 20px;
+  border: 1px solid #20a6ff;
+  width: 100%;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  cursor: pointer;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.tutorialesContent__mobile__option > option {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 1px #eaeaea;
+          box-shadow: 1px 1px 1px #eaeaea;
+  color: #20a6ff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 10px;
+}
+
+.tutorialesContent__tabs {
+  width: 250px;
+  display: none;
+}
+
+.tutorialesContent__tabs > a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tutorialesContent__tabs > a a:hover {
+  text-decoration: none;
+}
+
+.tutorialesContent__tabs > .boton {
+  padding: 10px 20px;
+  border-bottom: 2px solid #eaeaea;
+  font-size: 16px;
+  font-weight: 600;
+  color: #868686;
+  border-radius: 0 0 0 0;
+  margin: 5px 0;
+  -webkit-transition: all linear 150ms;
+  transition: all linear 150ms;
+}
+
+.tutorialesContent__tabs > .boton:hover {
+  background-color: #9cd8ff;
+  color: #fff;
+  border-radius: 6px 0 0 6px;
+}
+
+.tutorialesContent__tabs > .botonActivo {
+  background-color: #20a6ff;
+  color: #fff;
+  border-bottom: transparent;
+  border-radius: 6px 0 0 6px;
+  -webkit-transition: all linear 150ms;
+  transition: all linear 150ms;
+}
+
+.tutorialesContent__tabs > .botonActivo:hover {
+  background-color: #20a6ff;
+}
+
+.tutoriales {
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  padding: 20px 40px;
+}
+
+.tutoriales__titulo {
+  font-size: 28px;
+  font-family: "HelveticaRounded LT Std Bd", sans-serif;
+  font-weight: 700;
+  color: #868686;
+}
+
+.tutoriales .panel-default {
+  border: none !important;
+  border-bottom: 2px solid #eaeaea !important;
+  border-radius: 0 0 0 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.tutoriales__encabezado {
+  background-color: transparent !important;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.tutoriales__nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: #20a6ff !important;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  background-color: transparent;
+  padding: 15px 0;
+}
+
+.tutoriales__nombre__pregunta {
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+
+.tutoriales__nombre:hover, .tutoriales__nombre:focus, .tutoriales__nombre:focus-visible {
+  text-decoration: none;
+}
+
+.tutoriales__nombre .flechaDespliegue {
+  width: 25px;
+  min-width: 25px;
+  height: 17px;
+  min-height: 17px;
+  border: solid #20a6ff;
+  border-width: 0 5px 5px 0;
+  border-right: transparent;
+  border-radius: 3px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+.tutoriales .collapsed > .flechaDespliegue {
+  width: 17px;
+  min-width: 17px;
+  height: 17px;
+  min-height: 17px;
+  border: solid #20a6ff;
+  border-width: 0 5px 5px 0;
+  border-radius: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+.tutoriales__cuerpo {
+  padding: 20px;
+}
+
+.tutoriales__parrafo, .tutoriales__pasos, .tutoriales__text {
+  font-size: 14px;
+  color: #868686;
+}
+
+.tutoriales__parrafo a, .tutoriales__pasos a, .tutoriales__text a {
+  color: #20a6ff;
+  font-weight: 600;
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
+  -webkit-transition: -webkit-text-decoration linear 150ms;
+  transition: -webkit-text-decoration linear 150ms;
+  transition: text-decoration linear 150ms;
+  transition: text-decoration linear 150ms, -webkit-text-decoration linear 150ms;
+}
+
+.tutoriales__parrafo a:hover, .tutoriales__pasos a:hover, .tutoriales__text a:hover {
+  text-decoration: underline;
+}
+
+.tutoriales__parrafo {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tutoriales__pasos {
+  padding-left: 20px;
+}
+
+.tutoriales__pasos > li {
+  padding: 10px 0;
+}
+
+@media (min-width: 1024px) {
+  .tutorialesContent {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .tutorialesContent__tabs {
+    display: block;
+  }
+  .tutorialesContent__mobile {
+    display: none;
+  }
+  .bannertut__content > h1 {
+    text-align: left;
+  }
+  .tutoriales__nombre {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=videotutoriales.css.map */
