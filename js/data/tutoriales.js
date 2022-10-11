@@ -1,282 +1,234 @@
 "use strict";
 
 var dataApp = [{
-  titulo: "¿Qué es Plin?",
-  parrafo: "Es la nueva forma de cobrar y pagar desde el app de BBVA, Interbank, Scotiabank, BanBif y Caja Arequipa, solo con el código QR.",
-  respuestas: ["Inicia sesión en tu BanBif App con tu número de DNI y clave", "Selecciona Transferencias, y luego Plin", "Selecciona Empezar y comienza tu afiliación", "Confirma tu número de celular y, elige una cuenta, desde esta podrás enviar y recibir dinero", "Acepta los “Términos y Condiciones” eligiendo el recuadro en blanco", "¡Plin y listo! ya puedes enviar y recibir dinero"],
+  titulo: "1. ¿Olvidaste tu clave o bloqueaste tu acceso?",
+  parrafo: "Al detectar el intento de ingreso de una clave errada por 3 veces consecutivas, por temas de seguridad, automáticamente se procederá con el bloqueo temporal del usuario. En caso no recuerdes tu clave digital, podrás recuperarlo a través de los siguientes pasos:",
+  respuestas: ["Ingresa a tu BanBif App.", "Ingresa a la opción “¿Olvidaste tu contraseña o bloqueaste tu acceso?      ", "Completa tus datos en la Solicitud de Nueva Clave (incluyendo número de tarjeta y clave de cajero)", "Confirma que se haya enviado una contraseña temporal a tu correo personal. (en caso no recuerdes cuál es tu correo electrónico que registraste en el Banco o deseas actualizarla, consulta con nuestra Banca Telefónica al 01 631 9000 para Lima o 0 801 0 0456 para Provincias, o en todo caso acércate a cualquiera de nuestras Oficinas a nivel nacional)      ", "Ingresa nuevamente a tu BanBif App usando la contraseña temporal.", "Una vez ingresado, automáticamente se te solicitará generar una nueva contraseña ¡y listo!"],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ia1tUEOoQvA?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+}, {
+  titulo: "2. Cambia tu contraseña temporal y genera tu propia clave digital",
+  parrafo: "Una vez que ya cuentes con tu contraseña temporal y el sistema te pide que generas una nueva, deberás tener en cuenta lo siguiente:",
+  respuestas: ["Tu nueva clave debe contar con mínimo 8 caracteres y máximo 10. ", "Debe estar conformado por: al menos una letra mayúscula, una letra minúscula, un número y un carácter especial (p.e: -, _, #, $, &, @, ¡, !, ?, ¿, “, /, etc.)", "\xA1Y listo! Ya cuentas con tu propia clave digital.\n      <br/><br/>\n      Recuerda que el env\xEDo de una contrase\xF1a temporal se puede realizar solo una vez al d\xEDa. Si solicitas otra clave temporal en el transcurso del d\xEDa, el sistema no te permitir\xE1 seguir con el proceso. Podr\xE1s realizar otra solicitud al d\xEDa siguiente.\n      "],
   video: ""
 }, {
-  titulo: "¿Cómo afiliarse a PLIN?",
-  parrafo: "Descubre cómo afiliarte antes de realizar tus operaciones",
-  respuestas: ["Inicia sesión en tu BanBif App con tu número de DNI y clave", "Selecciona Transferencias, y luego Plin", "Selecciona Empezar y comienza tu afiliación", "Confirma tu número de celular y, elige una cuenta, desde esta podrás enviar y recibir dinero", "Acepta los “Términos y Condiciones” eligiendo el recuadro en blanco", "¡Plin y listo! ya puedes enviar y recibir dinero"],
+  titulo: "3. ¿Qué operaciones puedo hacer en la Banca por Internet",
+  parrafo: "A través de nuestra Banca por Internet, puedes realizar diferentes operaciones:",
+  respuestas: ["Transferencias entre cuentas propias, a otras cuentas BanBif, a otros bancos y al exterior.", "Pagar tus tarjetas BanBif, tarjetas de otros Bancos, Tarjetas Diners, tus pr\xE9stamos y diferentes servicios.", "Env\xEDo de dinero PLIN.", "Pago y cobro con QR para PLIN y Niubiz.", "Activa y desactiva tus servicios/notificaciones de tus tarjetas.", "Acceder a las diferentes ofertas de productos que tenemos para ti.", "Gestionar tus operaciones frecuentes y programadas, as\xED como revisar tu historial de operaciones.", "Comprar y vender d\xF3lares.", "Ahorra tus vueltos y programa tus ahorros.", "Realiza retiros sin tarjetas.", "Abre cuentas de ahorro y dep\xF3sitos a plazo.", "Revisa el tipo de cambio"],
   video: ""
 }, {
-  titulo: "¿Cómo envío dinero por PLIN?",
-  parrafo: "Descubre cómo utilizar PLIN desde tu celular para enviar y recibir dinero.",
-  respuestas: ["Inicia sesión en tu BanBif App para empezar a enviar dinero a tus contactos", "Selecciona Transferencias y luego Plin", "Elige el contacto al que deseas enviar dinero", "Ingresa el importe (mínimo s/. 1 hasta s/. 500 por operación)", "Confirma tu operación", "Ingresa tu clave SMS Token y selecciona el botón Validar código", "¡Plin y listo!"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/rCOHxVZoBbg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "¿Cómo pagar con Plin QR?",
-  parrafo: "¡Tus pagos con Plin QR ya son una realidad! Aquí te enseñamos cómo:",
-  respuestas: ["Ingresa a tu BanBif App con tu DNI y Clave", 'Ingresa a opción "QR"', "Escanea el código QR enfocando con tu cámara el código QR del comercio o contacto", "Ingresa el monto que deseas enviar, también podrás colocar una descripción", "Confirma los datos de destinatario y el monto", "Ingresa el código token que se enviará a tu SMS o Email", "¡Plin y listo! El comercio o contacto recibirá el dinero en su cuenta de forma inmediata"],
+  titulo: "4. Afíliate a la Clave SMS Token para que realices todas tus operaciones digitales",
+  parrafo: "La Clave SMS Token es un elemento de seguridad que podr\xE1s utilizar para confirmar algunas operaciones que vas a realizar a trav\xE9s de HOLAbank como, por ejemplo: PLIN, transferencias, pagos, etc. El SMS Token est\xE1 conformado por 6 d\xEDgitos generados aleatoriamente y lo recibir\xE1s en tu celular y/o correo electr\xF3nico cada vez que realices una operaci\xF3n.\n    <br/> <br/> Para afiliarte a la Clave SMS Token, cuentas con 2 opciones: ",
+  respuestas: ["Si cuentas con una Tarjeta de D\xE9bito o Cr\xE9dito BanBif, puedes afiliarte directamente desde la Banca Telef\xF3nica (01 631 9000 para Lima o 0 801 0 0456 para Provincias).", "En caso no cuentes con una Tarjeta con nosotros, deber\xE1s acercarte a la Oficina m\xE1s cercana a tu disposici\xF3n para confirmar tu n\xFAmero y solicitar la afiliaci\xF3n."],
   video: ""
 }, {
-  titulo: "¿Cómo cobrar con Plin QR?",
-  parrafo: "¡Tus cobros con Plin QR ya son una realidad! Aquí te enseñamos cómo:",
-  respuestas: ["Ingresa a tu BanBif App con tu DNI y Clave", 'Ingresa a opción "QR"', 'Desde el escáner del código QR., selecciona "Mostrar mi QR Plin"', 'Selecciona "Compartir" para que puedas enviarlo a tus contactos.', "¡Plin y listo! ya puedes recibir dinero compartiendo  tu código QR"],
-  video: ""
-}, {
-  titulo: "Activar/Desactivar Servicios Tarjeta de Débito y Crédito",
-  parrafo: "¿Quieres activar o desactivar tus servicios de Tarjeta de Credito o Debito, pero no sabes como? Aquí te brindamos los pasos para hacerlo:",
-  respuestas: ["Ingresa a tu BanBif App con tu número de DNI y Clave", "Selecciona el menú superior (las tres líneas blancas de la esquina superior izquierda)", "En el menú, encontrarás la opción: “Servicios de mis tarjetas”, ingresar a esta opción", "Luego, ingresa a la opción “Mis Servicios de Tarjetas”", "Una vez ahí, podrás visualizar las diferentes tarjetas con las que cuentas, y podrás hacer clic en el ícono de editar para configurarlas. ", "Para Tarjetas de Débito encontrarás las siguientes opciones: “Compras en exterior“,", "“Compras por internet“ y “Disposición de efecto en el exterior“. ", "Para Tarjetas de Crédito encontrarás las siguientes opciones: “Compras en el exterior“, “Compras por Internet“, “Disposición de efectivo“ y “Sobregiro“. </br>Recuerda, tus tarjetas BanBif vienen con todas las opciones desactivadas, por lo que será necesario que las configures si deseas realizar compras por internet o transferencias a través de aplicaciones como Plin o suscribirte a plataformas como Netflix, Disney, Spotify entre muchas más."],
-  video: ""
-}, {
-  titulo: "¿Qué hago si se bloquea mi usuario de Banca Digital?",
-  parrafo: "¿Cómo logro ingresar a mi BanBif App si se bloquea o me olvido mi usuario? Tranquilo, sigue estos pasos.  ",
-  respuestas: ["Ingresa a tu BanBif App con tu número de DNI y Clave", "Elige la opción “¿Olvidaste tu contraseña o bloqueaste tu acceso?“", "Completa y confirma tus datos en la “Solicitud de Nueva Clave“", "Se te enviará una contraseña temporal a tu correo personal que tienes registrado en BanBif", "Ingresa nuevamente a la Banca por Internet de BanBif en  usando la contraseña temporal", "Una vez que ingreses, automáticamente te solicitará generar tu nueva contraseña"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Ia1tUEOoQvA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "¿Qué es la clave temporal?",
-  parrafo: 'Es la clave que te permite confirmar tus operaciones desde nuestra banca digital: BanBif App y Banca por Internet. Para afiliarte a la clave SMS/Email token, lo puedes hacer desde la Banca Telefónica Lima: <a href="tel:516319000">631-9000</a> o Provincias: <a href="tel:080100456">0-801-0-0456</a>. También puedes acercarte a cualquier agencia de nuestra Red de Oficinas y solicitar la afiliación. ',
+  titulo: "5. ¿Qué es PLIN?",
+  parrafo: "PLIN es la nueva forma de cobrar y pagar desde el app de BBVA, Interbank,\n    Scotiabank, BanBif y otras entidades solamente usando tu n\xFAmero de celular o con\n    c\xF3digo QR sin necesidad de contar con el n\xFAmero de cuenta ni c\xF3digo\n    interbancario. Para m\xE1s informaci\xF3n, puedes ingresar a <a href=\"http://www.plin.pe\" target=\"_blank\" rel=\"noopener noreferrer\">www.plin.pe</a>. ",
   respuestas: [],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/f2KrBy4-Z1Y?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  video: ""
 }, {
-  titulo: "¿Qué es la clave SMS/Email Token?",
-  parrafo: 'Es la clave que te permite confirmar tus operaciones desde nuestra banca digital: BanBif App y Banca por Internet. Para afiliarte a la clave SMS/Email token, lo puedes hacer desde la Banca Telefónica Lima: 631-9000 o Provincias: 0-801-0-0456. También puedes acercarte a cualquier agencia de nuestra Red de Oficinas y solicitar la afiliación. ',
+  titulo: "6. ¿Cómo afiliarte a PLIN?",
+  parrafo: "Descubre c\xF3mo afiliarte a PLIN antes de realizar tus operaciones: ",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Selecciona \u201CTransferencias\u201D, y luego \u201CPlin\u201D", "Selecciona \u201CEmpezar\u201D y comienza tu afiliaci\xF3n.", "Confirma tu n\xFAmero de celular y elige una cuenta, desde esta podr\xE1s enviar y recibir dinero.", "Acepta los \u201CT\xE9rminos y Condiciones\u201D eligiendo el recuadro en blanco.", "\xA1Plin y listo! ya puedes enviar y recibir dinero."],
+  video: ""
+}, {
+  titulo: "7. ¿Cómo envío dinero por PLIN?",
+  parrafo: "Descubre c\xF3mo utilizar PLIN desde tu celular para enviar y recibir dinero.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Selecciona \u201CTransferencias\u201D y luego \u201CPlin\u201D.", "Elige el contacto al que deseas enviar dinero.", "Ingresa el importe (m\xEDnimo s/. 1 hasta s/. 500 por operaci\xF3n).", "Confirma tu operaci\xF3n.", "Ingresa tu clave SMS Token y selecciona el bot\xF3n Validar c\xF3digo.", "\xA1Plin y listo!."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rCOHxVZoBbg?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+}, {
+  titulo: "8. ¿Cómo pagar con Plin QR?",
+  parrafo: "\xA1Tus pagos con Plin QR ya son una realidad! Aqu\xED te ense\xF1amos c\xF3mo:",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la opci\xF3n \"QR\".", "Escanea el c\xF3digo QR enfocando con tu c\xE1mara el c\xF3digo QR del comercio o contacto.", "Ingresa el monto que deseas enviar, tambi\xE9n podr\xE1s colocar una descripci\xF3n.      ", "Confirma los datos del destinatario y el monto.", "Ingresa el c\xF3digo token que se enviar\xE1 a tu SMS o Email.", "\xA1Plin y listo! El comercio o contacto recibir\xE1 el dinero en su cuenta de forma inmediata."],
+  video: ""
+}, {
+  titulo: "9. ¿Cómo cobrar con Plin QR?",
+  parrafo: "\xA1Tus cobros con Plin QR ya son una realidad! Aqu\xED te ense\xF1amos c\xF3mo:",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la opci\xF3n \"QR\".", "Desde el esc\xE1ner del c\xF3digo QR., selecciona \"Mostrar mi QR Plin\".", "Selecciona \"Compartir\" para que puedas enviarlo a tus contactos.", "\xA1Plin y listo! ya puedes recibir dinero compartiendo tu c\xF3digo QR."],
+  video: ""
+}, {
+  titulo: "10. Quiero activar/desactivar mis servicios adicionales de Tarjeta de Débito y Crédito",
+  parrafo: "\xBFQuieres activar o desactivar tus servicios adicionales de Tarjeta de Cr\xE9dito o D\xE9bito? Aqu\xED te ense\xF1amos los pasos para hacerlo:",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y contrase\xF1a.      ", "Selecciona el men\xFA superior (las tres l\xEDneas blancas de la esquina superior izquierda).", "En el men\xFA, encontrar\xE1s la opci\xF3n: \u201CServicios de mis tarjetas\u201D. Ingresa a esta opci\xF3n.", "Luego, ingresa a la opci\xF3n \u201CMis Servicios de Tarjetas\u201D.", "Una vez ah\xED, podr\xE1s visualizar las diferentes tarjetas con las que cuentas, y podr\xE1s hacer clic en el \xEDcono de editar para configurarlas.", "Para Tarjetas de D\xE9bito encontrar\xE1s las siguientes opciones: \u201CCompras en exterior\u201D, \u201CCompras por internet\u201D y \u201CDisposici\xF3n de efectivo en el exterior\u201D.", "Para Tarjetas de Cr\xE9dito encontrar\xE1s las siguientes opciones: \u201CCompras en el exterior\u201D, \u201CCompras por Internet\u201D, \u201CDisposici\xF3n de efectivo\u201D y \u201CSobregiro\u201D.", "Recuerda, tus tarjetas BanBif vienen con todas las opciones desactivadas, por lo que ser\xE1 necesario que las configures si deseas realizar compras por internet o transferencias a trav\xE9s de aplicaciones como Plin o suscribirte a plataformas como Netflix, Disney, Spotify entre muchas m\xE1s."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TK11aMDO94o?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+}, {
+  titulo: "11. Comparte tu número de cuenta y CCI",
+  parrafo: "Descubre c\xF3mo compartir tu n\xFAmero de cuenta y CCI directamente desde tu BanBif App.\n    Selecciona la opci\xF3n \u201CCompartir Cuenta\u201D que aparece debajo de cada uno de tus productos y, \xA1listo! ya puedes compartir tu n\xFAmero de cuenta y CCI para recibir dinero en tus cuentas.\n    ",
   respuestas: [],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/E2gQ2Ltjv4o?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  video: "https://www.youtube.com/watch?v=dw2XtHST-Xs&feature=emb_title&ab_channel=BanBif    "
 }, {
-  titulo: "Comparte tu número de cuenta y CCI",
-  parrafo: "Descubre cómo compartir tu número de cuenta y CCI directamente desde tu BanBif App.</br>Selecciona la opción “Compartir Cuenta” que aparece debajo de cada uno de tus productos y, ¡listo! ya puedes compartir tu número de cuenta y CCI para recibir dinero en tus cuentas.",
-  respuestas: [],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dw2XtHST-Xs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "12. Conoce cómo verificar el saldo de tu cuenta",
+  parrafo: "Aprende c\xF3mo verificar el saldo de tus cuentas o las cuotas del pr\xE9stamo que solicitaste.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Selecciona la opci\xF3n \u201CMis productos\u201C.", "\xA1Y listo! Desde este apartado podr\xE1s verificar los saldos y tus productos vigentes.\n      Si deseas ver los movimientos e historial de algunos de tus productos, solo selecciona uno de ellos y presiona la opci\xF3n \u201CMovimientos\u201C que se encuentra en la parte superior derecha."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Qxgi4H6RdSg?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Conoce cómo verificar el saldo en tu cuenta",
-  parrafo: "Aprende cómo verificar el saldo de tus cuentas o las cuotas del préstamo que solicitaste.",
-  respuestas: ["Ingresa a tu BanBif App con tu DNI y Clave", "Selecciona la opción “Mis productos“", "¡Y listo! Desde este apartado podrás verificar los saldos y tus productos vigentes </br>Si deseas ver los movimientos e historial de algunos de tus productos, solo selecciona uno de ellos y presiona la opción “Movimientos“ que se encuentra en la parte superior derecha."],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Qxgi4H6RdSg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Realiza transferencias a otras cuentas desde tu BanBif App ",
-  parrafo: "¿Sabías que con HOLABank puedes realizar transferencias a otras cuentas estés donde estés? Sigue estos pasos.",
-  respuestas: ["Ingresa a la BanBif App con tu DNI y Clave", "Selecciona la opción “Transferir“", "Selecciona en “A Otras cuentas BanBif“", "Elige tu cuenta de origen", "Ingresa el número de cuenta de destino", "Ingresa el monto que desees transferir", "Puedes dejar una descripción si lo deseas", "Confirma la operación", "Utiliza la clave SMS/Email token para validar la transferencia", "¡Y listo! Ya se realizó tu transferencia"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/PG972xRD5dM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Realiza transferencia las 24 horas del día, los 7 días de la semana",
-  parrafo: "En BanBif puedes realizar tus transferencias las 24 horas del día, por ello te mostramos los pasos para hacerlo:",
-  respuestas: ["Ingresa a la BanBif App con tu DNI y Clave", "Selecciona la opción “Transferir”", "Puedes elegir entre transferir entre tus cuentas BanBif, a otras cuentas BanBif y a otros bancos. ", "Completa la información solicitada (monto a transferir y cuenta de destino)", "Ingresa la clave token que te llegará por SMS o Email", "¡Y listo! Ya terminaste tu transferencia, recuerda que puedes realizarla a cualquier hora del día"],
+  titulo: "13. Realiza transferencias",
+  parrafo: "En BanBif puedes realizar tus transferencias las 24 horas del d\xEDa, por ello te mostramos los pasos para hacerlo:",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Selecciona la opci\xF3n \u201CTransferir\u201D.", "Puedes elegir entre transferir entre tus cuentas BanBif, a otras cuentas BanBif y a otros bancos.", "Completa la informaci\xF3n solicitada (monto a transferir y cuenta de destino).", "Ingresa la clave token que te llegar\xE1 por SMS o Email.", "\xA1Y listo! Ya terminaste tu transferencia, recuerda que puedes realizarla a cualquier hora del d\xEDa."],
   video: ""
 }, {
-  titulo: "¿Cómo puede realizar el pago de mis servicios?",
-  parrafo: "¿Sabías que puedes pagar tus servicios desde tu celular? Aprende a realizar estos pagos a través de tu BanBif App.",
-  respuestas: ["Ingresa al BanBif App con tu DNI y Clave", "Elige la opción ”Pagar”", "Selecciona ”Servicios”", "Busca el servicio que desees pagar", "Ingresa tu código de pago (teléfono, nro. de documento, suministro, etc)", "Se te mostrará la deuda pendiente, o en todo caso te indicará que coloques el monto a cancelar", "Selecciona el medio de pago", "Seleccionar “Siguiente” y confirmar con la clave SMS/Email token", "¡Y listo! Ya realizaste tu operación"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OMD7MJMeDTc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "14. ¿Cómo puedo pagar mis servicios?",
+  parrafo: "\xBFSab\xEDas que puedes pagar tus servicios desde tu celular? Aprende a realizar estos pagos a trav\xE9s de tu BanBif App.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Elige la opci\xF3n \u201DPagar\u201D.", "Selecciona \u201DServicios\u201D.", "Busca el servicio que desees pagar.", "Ingresa tu c\xF3digo de pago (tel\xE9fono, nro. de documento, suministro, etc).", "Se te mostrar\xE1 la deuda pendiente, o en todo caso te indicar\xE1 que coloques el monto a cancelar.", "Selecciona el medio de pago.", "Seleccionar \u201CSiguiente\u201D y confirmar con la clave SMS/Email token.", "\xA1Y listo! Ya realizaste tu operaci\xF3n."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OMD7MJMeDTc?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Realiza tus pagos de préstamos desde tu BanBif app",
-  parrafo: "¡Contamos con las herramientas para que pagues lo que necesites sin salir de tu casa!",
-  respuestas: ["Ingresa al App BanBif con tu documento de Identidad y tu contraseña", "Elige la opción Pagar", "Elige la opción Préstamos", "Selecciona el Préstamo a pagar y la cuenta donde se cargará el importe a pagar", "Confirma los datos y ¡Listo! pagaste tu préstamo"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mJYdJ1yTmSY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "15. Realiza el pago de tus préstamos desde tu BanBif App",
+  parrafo: "\xA1Contamos con las herramientas para que pagues lo que necesites sin salir de tu casa! ",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Elige la opci\xF3n \u201DPagar\u201D.", "Elige la opci\xF3n \u201CPr\xE9stamos\u201D.", "Selecciona el Pr\xE9stamo a pagar y la cuenta donde se cargar\xE1 el importe a pagar.", "Confirma los datos y \xA1Listo! pagaste tu pr\xE9stamo."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mJYdJ1yTmSY?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Paga todas tus Tarjeta de Crédito de cualquier banco desde tu BanBif app",
-  parrafo: "Descubre cómo realizar los pagos de tu tarjeta de crédito de otros bancos a través de tu Banbif App.",
-  respuestas: ["Ingresa al App BanBif con tu usuario y contraseña", "Elige la opción Pagar", "Escoge la opción Tarjetas de Otros Bancos", "Elige el banco, tarjeta, monto a pagar y cuenta a cargar", "Confirma tu pago", "¡Y listo! Pagaste tu Tarjeta de otro banco", "Si deseas, comparte tu comprobante"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dYthR9qIp0I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "16. Paga todas tus Tarjetas de Crédito BanBif desde tu BanBif App",
+  parrafo: "\xA1Pagos r\xE1pidos y desde casa! Conoce c\xF3mo pagar tu Tarjeta de Cr\xE9dito BanBif desde tu app.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Elige la opci\xF3n \u201DPagar\u201D.", "Puedes pagar tu Tarjeta de Cr\xE9dito BanBif y tambi\xE9n las de los otros bancos.      ", "Elige la Tarjeta a pagar.", "Selecciona la moneda, el importe y la cuenta.", "\xA1Y listo! Pagaste tu Tarjeta de Cr\xE9dito BanBif al instante."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mJYdJ1yTmSY?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Paga tu tarjeta de crédito desde BanBifApp",
-  parrafo: "¡Pagos rápidos y desde casa! Conoce cómo pagar tu Tarjeta de Crédito BanBif desde tu app.",
-  respuestas: ["Ingresa al App BanBif con tu usuario y contraseña", "Elige la opción Pagar", "Puedes pagar tu Tarjeta de Crédito BanBif y también las de los otros bancos", "Elige la Tarjeta a pagar", "Selecciona la moneda, el importe y la cuenta", "¡Y listo! Pagaste tu Tarjeta de Crédito BanBif al instante"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JfupeRvWZHQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "17. Paga todas tus Tarjetas de Crédito de otros bancos desde tu BanBif App",
+  parrafo: "Descubre c\xF3mo realizar los pagos de tu tarjeta de cr\xE9dito de otros bancos a trav\xE9s de tu Banbif App.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Elige la opci\xF3n \u201CPagar\u201D.", "Escoge la opci\xF3n \u201CTarjetas de Otros Bancos\u201D.", "Elige el banco, tarjeta, monto a pagar y cuenta a cargar.", "Confirma tu pago.", "\xA1Y listo! Pagaste tu Tarjeta de otro banco.", "Si deseas, comparte tu comprobante."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/dYthR9qIp0I?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Conoce cómo visualizar tus Estados de Cuenta",
-  parrafo: "Aprende a revisar los estados de cuenta de tus Tarjetas de Crédito a través de tu BanBif App",
-  respuestas: ["Ingresa a la BanBif App con tu DNI y Clave", "Selecciona el producto que desees visualizar", 'Selecciona la opción ”Estados”', 'Selecciona en ”Ver estado de cuenta”', " ¡Y listo! Ya se descargó el pdf del estado de cuenta"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/q0MLt7jQ5hM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "18. Activa tu Cuenta de Ahorro 100% digital",
+  parrafo: "Descubre c\xF3mo activar tu Cuenta de Ahorro 100% Digital a trav\xE9s de la BanBif App.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CIdentificaci\xF3n\u201D.", "Registra tu huella que se va a validar.", "Haz clic en \u201CEmpezar\u201D.", "Sigue las instrucciones hasta tener la confirmaci\xF3n de verificaci\xF3n.", "Perm\xEDtele al dispositivo continuar con la validaci\xF3n.", "Espera hasta que el sistema env\xEDe el mensaje de confirmaci\xF3n", "Responde las preguntas de verificaci\xF3n.", "Confirma los productos contratados.", "\xA1Y listo! BanBif termin\xF3 de validar tu identidad. Tu cuenta de Ahorro Digital ya se encuentra activa."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/I2R-mnDL8LA?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Activa tu Cuenta de Ahorro 100% Digital desde tu celular",
-  parrafo: "Descubre cómo activar  tu Cuenta de Ahorro 100% Digital a través de la BanBif App.",
-  respuestas: ["Ingresa a la BanBif App, digitando tu DNI y clave digital  ", 'Selecciona la opción “Identificación”', 'Selecciona la huella que se va a valida', 'Selecciona “Empezar”', 'Sigue las instrucciones hasta tener la confirmación de verificación', 'Permítele al dispositivo continuar con la validación', 'Espera hasta que el sistema envíe el mensaje de confirmación', 'Responde las preguntas de verificación', 'Confirma los productos contratados', '¡Y listo! BanBif terminó de validar tu identidad. Tu cuenta de Ahorro Digital ya se encuentra activa.'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/I2R-mnDL8LA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "19. Abre una cuenta Depósito a Plazo con nosotros",
+  parrafo: "Descubre aqu\xED c\xF3mo abrir tu cuenta de Dep\xF3sito a Plazo a trav\xE9s del Banbif App.    ",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CCuentas Click\u201D.", "Haz clic en \u201CAbre Dep\xF3sito a Plazo\u201D.", "Despliega el tipo de producto que vas a crear.", "Selecciona la moneda de tu Dep\xF3sito a Plazo.", "Ingresa el monto con el que deseas abrir tu Dep\xF3sito a Plazo.", "Elige el plazo.", "Elige la cuenta de donde se cargar\xE1 el importe para tu Dep\xF3sito a Plazo.\n      ", "Confirma los datos.", "Valida el correo a donde te llegar\xE1n los datos de tu Dep\xF3sito a Plazo.", "Revisa la simulaci\xF3n.", "Acepta las condiciones del contrato.", "Confirma la apertura de tu Dep\xF3sito a Plazo.", "\xA1Y listo! Ya cuentas con tu Dep\xF3sito a Plazo."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WVqEHHRSZPs?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Abre una cuenta Depósito a Plazo con nosotros",
-  parrafo: "Descubre aquí cómo abrir tu cuenta de Depósito a Plazo a través del Banbif App.",
-  respuestas: ["Ingresa al App BanBif con tu documento de Identidad y tu contraseña", "Elige la opción Menú", "Selecciona la opción Cuentas Click", "Selecciona Abre Depósito a Plazo", "Despliega el tipo de producto que vas a crear", "Selecciona la moneda de tu Depósito a Plazo", "Ingresa el monto con el que deseas abrir tu Depósito a Plazo", "Elige el plazo", "Elige la cuenta de donde se cargará el importe para tu Depósito a Plazo", "Confirma los datos", "Valida el correo a donde te llegará los datos de tu Depósito a Plazo", "Revisa la simulación", "Acepta las condiciones del contrato", "Confirma la apertura de tu Depósito a Plazo", "¡Y listo! Ya cuentas con tu Depósito a Plazo"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WVqEHHRSZPs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "20. Haz tus retiros del cajero sin Tarjeta",
+  parrafo: "Con HOLAbank puedes programar tus retiros desde tu celular. Aprende c\xF3mo en este video.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CRetiros Sin Tarjeta\u201D.", "Elige la opci\xF3n Para m\xED o Para otra persona. En caso sea Para otra persona, se deber\xE1 ingresar el n\xFAmero de documento de identidad del beneficiario.", "Selecciona la cuenta de la que quieres retirar.", "Coloca el monto a retirar.", "Ingresa la clave SMS token que te llegar\xE1.", "Selecciona obtener Clave Temporal.", "Anota tu Clave Temporal o comp\xE1rtela v\xEDa SMS o correo electr\xF3nico.      ", "Ya en el cajero BanBif, selecciona la opci\xF3n \u201CRetirar sin Tarjeta\u201D.", "Ingresa tu n\xFAmero de celular y la Clave Temporal.", "\xA1Y listo! Ya puedes retirar tu dinero sin tarjeta."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/JjdMKXryyB0?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Haz tus retiros del cajero sin Tarjeta",
-  parrafo: "Con HOLAbank puedes programar tus retiros desde tu celular. Aprende cómo en este video.",
-  respuestas: ["Ingresa a la App de BanBif con tu DNI y Clave", "Selecciona la opción Retiros Sin Tarjeta", "Elige la opción Para mí o Para otra persona. En caso sea Para otra persona, se deberá ingresar el número de documento de identidad del beneficiario.", "Selecciona la cuenta de la que quieres retirar ", "Coloca el monto a retirar", "Ingresa la clave SMS token que te llegará", "Selecciona obtener Clave Temporal", "Anota tu Clave Temporal o compártela vía SMS o correo electrónico", "Ya en el cajero BanBif, selecciona la opción Retirar sin Tarjeta", "Ingresa tu número de celular y la Clave Temporal", "¡Y listo! Ya puedes retirar tu dinero sin tarjeta </br></br>De tratarse el retiro para Otras personas:</br></br>", 'Solo elige la opción "Para otra persona" e ingresa su número de celular, luego sigue los mismos pasos descritos anteriormente.'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JjdMKXryyB0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Ahorro Programado",
-  parrafo: "Es un servicio que te permite realizar de manera automática y por el tiempo que desees, transferencias periódicas de dinero entre tus cuentas de ahorro BanBif. Recuerda que es indispensable que cuentes con al menos con 2 cuentas de ahorro en la misma moneda. <br/> A continuación te enseñamos cómo activarlo:",
-  respuestas: ["Ingresa a la App de BanBif con tu DNI y Clave", "Ve a la sección de menú e ingresa a Opciones de ahorro", "Selecciona la opción Ahorro Programado", "Completa todos los campos requeridos con tu información y cuentas", "¡Y listo! Ya puedes programar tus ahorros de forma muy sencilla cada vez que lo desees y durante el tiempo que lo necesites"],
+  titulo: "21. Usa nuestro Ahorro Programado",
+  parrafo: "Es un servicio que te permite realizar de manera autom\xE1tica y por el tiempo que desees, transferencias peri\xF3dicas de dinero entre tus cuentas de ahorro BanBif. Recuerda que es indispensable que cuentes con al menos con 2 cuentas de ahorro en la misma moneda.\n    <br/> <br/>A continuaci\xF3n te ense\xF1amos c\xF3mo activarlo:",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ve a la secci\xF3n de men\xFA e ingresa a \u201COpciones de ahorro\u201D.", "Selecciona la opci\xF3n \u201CAhorro Programado\u201D.", "Completa todos los campos requeridos con tu informaci\xF3n y cuentas.", "\xA1Y listo! Ya puedes programar tus ahorros de forma muy sencilla cada vez que lo desees y durante el tiempo que lo necesites."],
   video: ""
 }, {
-  titulo: "Ahorro Vuelto con tu tarjeta de débito ",
-  parrafo: "Disfruta de este servicio que te permitirá redondear tus compras, generando un ahorro automático con este redondeo.",
-  respuestas: ["Ingresa a la App de BanBif con tu DNI y Clave", "Ve a la sección de menú e ingresa a Opciones de ahorro", "Selecciona la opción Ahorro Vuelto", "Completa todos los campos requeridos con tu información ", "¡Y listo! Ya puedes ahorrar de forma muy sencilla mientras compras; además, el dinero que vas guardando en tu otra cuenta de ahorros va generando intereses mes a mes"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qZe7UqQ26Nc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "22. Ahorro Vuelto con tu Tarjeta de Débito",
+  parrafo: "Disfruta de este servicio que te permitir\xE1 redondear tus compras, generando un ahorro autom\xE1tico con este redondeo.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la barra de men\xFA y haz clic en \u201COpciones de ahorro\u201D", "Selecciona la opci\xF3n \u201CAhorro Vuelto\u201D.      ", "Completa todos los campos requeridos con tu informaci\xF3n.", "\xA1Y listo! Ya puedes ahorrar de forma muy sencilla mientras compras; adem\xE1s, el dinero que vas guardando en tu otra cuenta de ahorros va generando intereses mes a mes."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qZe7UqQ26Nc?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Configura Notificaciones de consumo en Tarjeta de Débito y Crédito",
-  parrafo: "Para poder observar las notificaciones de consumo en tus tarjetas BanBif, solo tienes que realizar una transferencia y automáticamente se enviará un correo a tu mail asociado con nosotros. Mira los pasos para Transferir:",
-  respuestas: ["Ingresa a tu BanBif App con tu DNI y Clave", 'Selecciona la opción “Servicios de mis Tarjetas”', 'Haz click en “Mis notificaciones de tarjetas”', "Ahora podrás observar las notificaciones disponibles para cada uno de tus productos      ", 'En el menú desplegable de cada producto, selecciona la opción “Editar”', 'Configura y personaliza los distintos campos que deseas visualizar para tus notificaciones', 'Haz click en “Guardar cambios”', '¡Y listo! Tus notificaciones han sido actualizadas y personalizadas a tu gusto. Cada vez que realizar alguna operación, te llegará un aviso directamente a tu email asociado'],
+  titulo: "23. Configura tus notificaciones de consumo en Tarjeta de Débito y Crédito",
+  parrafo: "Para poder observar las notificaciones de consumo en tus tarjetas BanBif, solo tienes que realizar una transferencia y autom\xE1ticamente se enviar\xE1 un correo a tu mail asociado con nosotros. Mira los pasos para Transferir:",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CServicios de mis Tarjetas\u201D.", "Haz clic en \u201CMis notificaciones de tarjetas\u201D", "Ahora podr\xE1s observar las notificaciones disponibles para cada uno de tus productos.", "En el men\xFA desplegable de cada producto, selecciona la opci\xF3n \u201CEditar\u201D.", "Configura y personaliza los distintos campos que deseas visualizar para tus notificaciones.", "Haz clic en \u201CGuardar cambios\u201D.", "\xA1Y listo! Tus notificaciones han sido actualizadas y personalizadas a tu gusto. Cada vez que realizar alguna operaci\xF3n, te llegar\xE1 un aviso directamente a tu email asociado."],
   video: ""
 }, {
-  titulo: "Aprende a mantener tus datos actualizados",
-  parrafo: 'Conoce más sobre los canales donde puedes mantener actualizados tus datos en Banbif.</br></br>La actualización de datos de contacto ya sea de tu correo electrónico, número de celular o teléfono fijo la podrás realizar a través de cualquiera de nuestras oficinas a nivel nacional o llamando a la Banca Telefónica Lima: <a href="tel:+516319000">631-9000</a> o Provincias: <a href="tel:080100456">0-801-0-0456</a>. Recuerda que es importante que tengas tus datos actualizados, pues esto nos permitirá contactarte u ofrecerte algún producto en campaña.',
-  respuestas: [],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ysaplP3LMEQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "24. Aprende a usar tus servicios de pagos con QR",
+  parrafo: "Puedes realizar tus pagos escaneando el c\xF3digo QR en tu establecimiento favorito. Mira el video y descubre c\xF3mo.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Selecciona la opci\xF3n \u201CAprende a usar tu Tarjeta de D\xE9bito Virtual desde tu celulares QR\u201D.", "Escanea el c\xF3digo QR que est\xE1 en el establecimiento donde quieres pagar. ", "Elige la tarjeta con la que deseas pagar.", "Ingresa la clave token que te llegar\xE1 por SMS.", "Confirma el Nombre y monto a pagar en el establecimiento.", "\xA1Y listo! Ya puedes realizar tus pagos con QR."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3ELuDhbXY_E?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }, {
-  titulo: "Aprende a usar tu servicio de pagos con QR",
-  parrafo: "Puedes realizar tus pagos escaneando el código QR en tu establecimiento favorito. Mira el video y descubre cómo.",
-  respuestas: ["Ingresa a la App de BanBif con tu DNI y Clave", "Selecciona la opción PagoAprende a usar tu Tarjeta de Débito Virtual desde tu celulars QR", "Escanea el código QR que está en el establecimiento donde quieres pagar", "Elige la tarjeta con la que deseas pagar", "Ingresa la clave token que te llegará por SMS", "Confirma el Nombre y monto a pagar en el establecimiento", "¡Y listo! Ya puedes realizar tus pagos con QR"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3ELuDhbXY_E?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Aprende a usar tu Tarjeta de Débito Virtual desde tu celular",
-  parrafo: "Conocer cómo usar tu Tarjeta de Débito Virtual y realizar compras más seguras sin salir de casa.",
-  respuestas: ["Ingresa a la BanBif App con tu DNI y Clave", 'Ingresa a ”Mis productos”', 'Encuentra y selecciona tu ”Tarjeta Débito Virtual”', 'Visualiza las ”Cuentas afiliadas a tu Tarjeta Débito Virtual”', "Selecciona ”Ver datos”", "Ingresa la clave token que te llegará por SMS", "Visualiza los datos de tu Tarjeta Débito Virtual", '¡Y listo! Al comprar por internet, solo ingresa los datos de tu Tarjeta Débito Virtual al pagar'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/GWhTxTN0WKQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, // {
-//   titulo: "Activa tu Cuenta de Ahorro Digital desde tu celular",
-//   parrafo:
-//     "Conoce cómo activar tu cuenta de Cuenta de Ahorro Digital a través de tu Banbif App.",
-//   respuestas: [
-//     "Ingresa a HOLAbank desde la BanBif App, digitando tu DNI y clave digital",
-//     "Selecciona la opción Identificación",
-//     "Selecciona la huella que se va a validar",
-//     "Selecciona Empezar",
-//     "Sigue las instrucciones que te da el aplicativo hasta tener la confirmación de verificación",
-//     "Permítele al dispositivo continuar con la validación",
-//     "Espera hasta que el sistema envíe el mensaje de confirmación",
-//     "Responde las respuestas de verificación",
-//     "Confirma los productos contratados",
-//     "¡Y listo! BanBif terminó de validar tu identidad. Tu cuenta de Ahorro Digital ya se encuentra activa",
-//   ],
-//   video: "https://www.youtube.com/watch?v=I2R-mnDL8LA",
-// },
-{
-  titulo: "Operaciones Frecuentes",
-  parrafo: "Para poder visualizar las operaciones frecuentes que realizas en tu BanBif App, solo tienes que seguir los siguientes pasos:",
-  respuestas: ['Ingresa a la banca digital <a href="https://banbif.com.pe">www.banbif.com.pe</a> con tu usuario y contraseña', "Selecciona la opción Pagar", "Realiza cualquier pago a tus cuentas BanBif, a otros bancos, o pagando tus servicios", "Antes de confirmar tu operación, selecciona la casilla que dice Agregar a operaciones frecuentes", "¡Y listo! Ya puedes observar tus operaciones guardadas en el apartado a la izquierda que dice Operaciones Frecuentes "],
-  video: ""
+  titulo: "25. Aprende a usar tu Tarjeta de Débito Virtual desde tu celular",
+  parrafo: "Conocer c\xF3mo usar tu Tarjeta de D\xE9bito Virtual y realizar compras m\xE1s seguras sin salir de casa.",
+  respuestas: ["Inicia sesi\xF3n en tu BanBif App con tu n\xFAmero de documento y clave.", "Ingresa a la barra de men\xFA y selecciona \u201DMis productos\u201D.", "Encuentra y selecciona tu \u201DTarjeta D\xE9bito Virtual\u201D.", "Visualiza las \u201DCuentas afiliadas a tu Tarjeta D\xE9bito Virtual\u201D", "Selecciona \u201DVer datos\u201D.", "Ingresa la clave token que te llegar\xE1 por SMS.", "Visualiza los datos de tu Tarjeta D\xE9bito Virtual.", "\xA1Y listo! Al comprar por internet, solo ingresa los datos de tu Tarjeta D\xE9bito Virtual al pagar."],
+  video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GWhTxTN0WKQ?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }];
 var dataDigital = [{
-  titulo: "¿Qué es Plin?",
-  parrafo: "Es la nueva forma de cobrar y pagar desde el app de BBVA, Interbank, Scotiabank, BanBif y Caja Arequipa, solo con el c\xF3digo QR.\n      <br/>\xA1Paga y cobra r\xE1pido, gratis y a otros bancos en un PLIN! \n      M\xE1s informaci\xF3n en: <a href=\"http://www.plin.pe\"> www.plin.pe</a>\n      ",
-  respuestas: [],
+  titulo: "1. ¿Olvidaste tu clave o bloqueaste tu acceso?",
+  parrafo: "Al detectar el intento de ingreso de una clave errada por 3 veces consecutivas, por temas de seguridad, autom\xE1ticamente se proceder\xE1 con el bloqueo temporal del usuario. En caso no recuerdes tu clave digital, podr\xE1s recuperarlo a trav\xE9s de los siguientes pasos:\n      ",
+  respuestas: ["Inicia sesi\xF3n en tu Banca por Internet <a href=\"http://www.banbif.com.pe\"> www.banbif.com.pe</a> en la secci\xF3n HOLAbank. \n      ", "Ingresa a la opci\xF3n \u201C\xBFOlvidaste tu contrase\xF1a o bloqueaste tu acceso?", "Completa tus datos en la Solicitud de Nueva Clave (<i>incluyendo n\xFAmero de tarjeta y clave de cajero</i>).", " Confirma que se haya enviado una contrase\xF1a temporal a tu correo personal. (<i>en caso no recuerdes cual\n        es tu correo electr\xF3nico que registraste en el Banco o deseas actualizarla,\n        consulta con nuestra Banca Telef\xF3nica al 01 631 9000 para Lima o 0 801 0 0456\n        para Provincias, o en todo caso ac\xE9rcate a cualquiera de nuestras Oficinas a\n        nivel nacional</i>)", "Ingresa nuevamente a tu Banca por Internet usando la contrase\xF1a temporal.", "Una vez ingresado, autom\xE1ticamente se te solicitar\xE1 generar una nueva contrase\xF1a \xA1y listo!\n      <br/>\n      <br/>\n      Recuerda que, para el proceso de \u201CRestablecer tu clave digital\u201D, deber\xE1s tener a\n      la mano tu n\xFAmero de tarjeta y la clave secreta de 4 d\xEDgitos de la misma. En\n      caso hayas olvidado tu clave de tu tarjeta, deber\xE1s tramitar una nueva en\n      nuestras Oficinas."],
   video: ""
 }, {
-  titulo: "¿Cómo afiliarse a PLIN?",
-  parrafo: "Descubre cómo afiliarte antes de realizar tus operaciones",
-  respuestas: ["Inicia sesión en tu BanBif App con tu número de DNI y clave", "Selecciona Transferencias, y luego Plin", "Selecciona Empezar y comienza tu afiliación", "Confirma tu número de celular y, elige una cuenta, desde esta podrás enviar y recibir dinero", "Acepta los “Términos y Condiciones” eligiendo el recuadro en blanco", "¡Plin y listo! ya puedes enviar y recibir dinero"],
+  titulo: "2. Cambia tu contraseña temporal y genera tu propia clave digital ",
+  parrafo: "Una vez que ya cuentes con tu contrase\xF1a temporal y el sistema te pide que generas una nueva, deber\xE1s tener en cuenta lo siguiente:\n      ",
+  respuestas: ["Tu nueva clave debe contar con m\xEDnimo 8 caracteres y m\xE1ximo 10. ", "Debe estar conformado por: al menos una letra may\xFAscula, una letra min\xFAscula, un n\xFAmero y un caracter especial (p.e: -, _, #, $, &, @, \xA1, !, ?, \xBF, \u201C, /, etc.)", "\xA1Y listo! Ya cuentas con tu propia clave digital.\n      <br />\n      <br />\n      Recuerda que el env\xEDo de una contrase\xF1a temporal se puede realizar solo una vez\n      al d\xEDa. Si solicitas otra clave temporal en el transcurso del d\xEDa, el sistema no\n      te permitir\xE1 seguir con el proceso. Podr\xE1s realizar otra solicitud al d\xEDa\n      siguiente"],
   video: ""
 }, {
-  titulo: "¿Cómo envío dinero por PLIN?",
+  titulo: "3. ¿Qué operaciones puedo hacer en la Banca por Internet?",
+  parrafo: "A trav\xE9s de nuestra Banca por Internet, puedes realizar diferentes operaciones:\n      ",
+  respuestas: ["Transferencias entre cuentas propias, a otras cuentas BanBif, a otros bancos y al exterior.", "Pagar tus tarjetas BanBif, tarjetas de otros Bancos, Tarjetas Diners, tus pr\xE9stamos y diferentes servicios", "Env\xEDo de dinero PLIN.", "Activa y desactiva tus servicios/notificaciones de tus tarjetas.", "Acceder a las diferentes ofertas de productos que tenemos para ti.", "Gestionar tus operaciones frecuentes y programadas, as\xED como revisar tu historial de operaciones.", "Comprar y vender d\xF3lares.", "Ahorra tus vueltos y programa tus ahorros.", "Realiza retiros sin tarjetas.", "Abre cuentas de ahorro y dep\xF3sitos a plazo.", "Revisa el tipo de cambio.", "Administrar tus cuentas, tarjetas y PLIN."],
+  video: ""
+}, {
+  titulo: "4. Afíliate a la Clave SMS Token para que realices todas tus operaciones digitales",
+  parrafo: "La Clave SMS Token es un elemento de seguridad que podr\xE1s utilizar para confirmar algunas operaciones que vas a realizar a trav\xE9s de HOLAbank como por ejemplo: PLIN, transferencias, pagos, etc. El SMS Token est\xE1 conformado por 6 d\xEDgitos generados aleatoriamente y lo recibir\xE1s en tu celular y/o correo electr\xF3nico cada vez que realices una operaci\xF3n.\n      <br/> Para afiliarte a la Clave SMS Token, cuentas con 2 opciones:\n      ",
+  respuestas: ["Si cuentas con una Tarjeta de D\xE9bito o Cr\xE9dito BanBif, puedes\n      afiliarte directamente desde la Banca Telef\xF3nica (<i>01 631 9000 para Lima o 0 801\n      0 0456 para Provincias</i>).", "En caso no cuentes con una Tarjeta con nosotros, deber\xE1s acercarte a la Oficina m\xE1s cercana a tu disposici\xF3n para confirmar tu n\xFAmero y solicitar la afiliaci\xF3n."],
+  video: ""
+}, {
+  titulo: "5. ¿Qué es PLIN y cómo afiliarse?",
+  parrafo: "PLIN es la nueva forma de cobrar y pagar desde el app de BBVA, Interbank, Scotiabank, BanBif y otras entidades solamente usando tu n\xFAmero de celular o con c\xF3digo QR sin necesidad de contar con el n\xFAmero de cuenta ni c\xF3digo interbancario.\n      <br/>Para m\xE1s informaci\xF3n, puedes ingresar a <a href=\"http://www.plin.pe\" target=\"_blank\" rel=\"noopener noreferrer\">www.plin.pe</a>\n      <br/> <br/> Descubre c\xF3mo afiliarte a PLIN antes de realizar tus operaciones:",
+  respuestas: ["Inicia sesi\xF3n en tu Banca por Internet <a href=\"http://www.banbif.com.pe\" target=\"_blank\" rel=\"noopener noreferrer\">www.banbif.com.pe</a> en la\n      secci\xF3n HOLAbank con tu n\xFAmero de documento y clave.", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CAdministrar\u201D.", "Selecciona la opci\xF3n \u201CConfigurar PLIN\u201D.", "En la secci\xF3n de \u201CBanco para recibir dinero\u201D, selecciona a BanBif como el banco principal. Adem\xE1s, puedes colocar tambi\xE9n tu n\xFAmero de cuenta para enviar dinero. Es importante tambi\xE9n que registres tu n\xFAmero de celular para que lo puedas vincular con PLIN."],
+  video: ""
+}, {
+  titulo: "6. ¿Cómo envío dinero por PLIN?",
   parrafo: "",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en <a href="https://www.banbif.com.pe/holabank">www.banbif.com.pe/holabank</a> con tu número de DNI y clave', "Selecciona Transferencias y luego Plin", "Elige el contacto al que deseas enviar dinero", "Ingresa el importe (mínimo s/. 1 hasta s/. 500 por operación)", "Confirma tu operación", 'Ingresa tu clave SMS/Email token y selecciona el botón “Validar código”', "¡Plin y listo!"],
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CTransferir\u201D.", "Selecciona la opci\xF3n \u201CPlin\u201D.", "Coloca el n\xFAmero telef\xF3nico destinatario al que enviar\xE1s dinero.\n      ", "Ingresa el importe (m\xE1ximo hasta S/500 por operaci\xF3n y m\xE1ximo S/1500 al d\xEDa). ", "Confirma tu operaci\xF3n.", "Ingresa tu Clave SMS Token y selecciona el bot\xF3n \u201CValidar c\xF3digo\u201D.", "\xA1Plin y listo!"],
   video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/rCOHxVZoBbg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 }, {
-  titulo: "Paga todas tus Tarjeta de Crédito de cualquier banco desde la Banca por Internet",
-  parrafo: "Descubre cómo realizar los pagos de tu tarjeta de crédito de otros bancos a través de tu Banca por Internet de BanBif en:",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en www.banbif.com.pe/holabank con tu número de DNI y clave', 'Elige la opción ”Pagar”', 'Escoge la opción ”Tarjetas de Otros Bancos”', "Elige el banco, tarjeta, monto a pagar y cuenta a cargar", "Confirma tu pago", '¡Y listo! Pagaste tu Tarjeta de otro banco', "Si deseas, comparte tu comprobante"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dYthR9qIp0I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Aprende a realizar tus Pagos de Servicios",
-  parrafo: "Aprende a realizar tus pagos de servicios a través de la Banca por Internet, sigue estos pasos:",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Elige la opción “Pagar”', 'Selecciona ”Servicios”', "Busca el servicio que desees pagar", "Finalmente, ingresa tu código de pago (teléfono, nro. de documento, suministro, etc)", 'Se te mostrará la deuda pendiente, o en todo caso te indicará que coloques el monto a cancelar', "Selecciona el medio de pago", 'Seleccionar ”Siguiente” y confirma con la clave SMS/Email token', '¡Y listo! Ya realizaste tu operación'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OMD7MJMeDTc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Comparte tu número de cuenta y CCI",
-  parrafo: "Descubre cómo compartir tu número de cuenta y CCI a través de la Banca por Internet. <br/> Selecciona la opción “Compartir Cuenta” que aparece debajo de cada uno de tus productos y, ¡listo! ya puedes compartir tu número de cuenta y CCI para recibir dinero en tus cuentas.",
-  respuestas: [],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dw2XtHST-Xs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Abre una cuenta Depósito a Plazo con nosotros ",
-  parrafo: "Descubre aquí cómo abrir tu cuenta de Depósito a Plazo:",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Selecciona la opción ”Cuentas Click”', 'Selecciona ”Abre Depósito a Plazo”', "Despliega el tipo de producto que vas a crear", 'Selecciona la moneda de tu ”Depósito a Plazo”', 'Ingresa el monto con el que deseas abrir tu Depósito a Plazo', "Elige el plazo", 'Elige la cuenta de donde se cargará el importe para tu Depósito a Plazo', 'Confirma los datos', 'Valida el correo a donde te llegará los datos de tu Depósito a Plazo', 'Revisa la simulación', 'Acepta las condiciones del contrato', 'Confirma la apertura de tu Depósito a Plazo', '¡Y listo! Ya cuentas con tu Depósito a Plazo'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WVqEHHRSZPs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Ahorro Vuelto con tu tarjeta de débito",
-  parrafo: "Disfruta de este servicio que te permitirá redondear tus compras, generando un ahorro automático con este redondeo.",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Ve a la sección de menú e ingresa a ”Opciones de ahorro”', 'Selecciona la opción ”Ahorro Vuelto”', "Completa todos los campos requeridos con tu información", "¡Y listo! Ya puedes ahorrar de forma muy sencilla mientras compras; además, el dinero que vas guardando en tu otra cuenta de ahorros va generando intereses mes a mes"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qZe7UqQ26Nc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Conoce cómo visualizar tus Estados de Cuenta ",
-  parrafo: "Aprende a revisar los estados de cuenta de tus Tarjetas de Crédito con los siguientes pasos",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Selecciona el producto que desees visualizar', 'Selecciona la opción ”Estados”', "Selecciona en ”Ver estado de cuenta” y el rango de fecha al que deseas acceder", "¡Y listo! Ya se descargó el pdf del estado de cuenta"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/q0MLt7jQ5hM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Realiza transferencias a otras cuentas desde tu Banca por Internet",
-  parrafo: "¿Sabías que con HOLABank puedes realizar transferencias a otras cuentas estés donde estés? Sigue estos pasos.",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Selecciona la opción ”Transferir”', 'Selecciona en ”A Otras cuentas BanBif”', "Elige tu cuenta de origen", "Ingresa el número de cuenta de destino", 'Ingresa el monto que desees transferir', "Puedes dejar una descripción si lo deseas", 'Confirma la operación', 'Utiliza la clave SMS/Email token para validar la transferencia', '¡Y listo! Ya se realizó tu transferencia'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/PG972xRD5dM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Haz tus retiros del cajero sin Tarjeta ",
-  parrafo: "Con HOLAbank puedes programar tus retiros desde tu casa. Aprende cómo en este video. ",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Selecciona la opción ”Retiros Sin Tarjeta”', 'Elige la opción ”Para mí” o ”Para otra persona”. En caso sea Para otra persona, se deberá ingresar el número de documento de identidad del beneficiario.', "Selecciona la cuenta de la que quieres retirar ", "Coloca el monto a retirar", 'Ingresa la clave SMS/Email token que te llegará', "Selecciona obtener Clave Temporal", 'Anota tu Clave Temporal o compártela vía SMS o correo electrónico ', 'Ya en el cajero BanBif, selecciona la opción ”Retirar sin Tarjeta”', ' Ingresa tu número de celular y la Clave Temporal', ' ¡Y listo! Ya puedes retirar tu dinero sin tarjeta', "De tratarse el retiro para Otras personas:\n      Solo elige la opci\xF3n \u201DPara otra persona\u201D e ingresa su n\xFAmero de celular, luego sigue los mismos pasos descritos anteriormente.\n      "],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JjdMKXryyB0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Conoce cómo verificar el saldo en tu cuenta",
-  parrafo: "Aprende cómo verificar el saldo de tus cuentas o las cuotas del préstamo que solicitaste.",
-  respuestas: ["Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave", "Selecciona la opción Mis productos", "¡Y listo! Desde este apartado podrás verificar los saldos y tus productos vigentes </br></br>Si deseas ver los movimientos e historial de algunos de tus productos, solo selecciona uno de ellos y presiona la opción Movimientos que se encuentra en la parte superior derecha.", 'Si deseas ver los movimientos e historial de algunos de tus productos, solo selecciona uno de ellos y presiona la opción “Movimientos” que se encuentra en la parte superior derecha.'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Qxgi4H6RdSg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Realiza tu pago de préstamos desde tu Banca por Internet",
-  parrafo: "¡Contamos con las herramientas para que pagues lo que necesites sin salir de tu casa!",
-  respuestas: [' Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Elige la opción ”Pagar”', 'Elige la opción ”Préstamos”', "Selecciona el préstamo a pagar y la cuenta donde se cargará el importe a pagar", "Confirma los datos y ¡listo! pagaste tu préstamo"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mJYdJ1yTmSY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-}, {
-  titulo: "Ahorro Programado ",
-  parrafo: 'Ahorro Programado es un servicio que te permite realizar de manera automática y por el tiempo que desees, transferencias periódicas de dinero entre tus cuentas de ahorro BanBif. Recuerda que es indispensable que cuentes con al menos con 2 cuentas de ahorro en la misma moneda. <br/> <br/> A continuación te enseñamos cómo activarlo: ',
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en www.banbif.com.pe/holabank con tu número de DNI y clave', 'Ve a la sección de menú e ingresa a ”Opciones de ahorro”', 'Selecciona la opción ”Ahorro Programado”', "Completa todos los campos requeridos con tu información y cuentas", "¡Y listo! Ya puedes programar tus ahorros de forma muy sencilla cada vez que lo desees y durante el tiempo que lo necesites"],
-  video: ''
-}, {
-  titulo: "Disposición de Efectivo de Tarjeta de Crédito",
-  parrafo: "",
-  respuestas: ['', '', ''],
-  video: ''
-}, {
-  titulo: "Configura notificaciones de consumo en Tarjeta de Débito y Crédito",
-  parrafo: "Para poder configurar y personalizar las notificaciones de consumo en tus tarjetas BanBif, solo debes seguir los siguientes pasos:",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Selecciona la opción “Administrar”', 'Haz click en “Notificaciones”', "Ahora podrás observar las notificaciones disponibles para cada uno de tus productos", "En el menú desplegable de cada producto, selecciona la opción “Editar”", 'Configura y personaliza los distintos campos que deseas visualizar para tus notificacione', 'Haz click en “Confirmar”', '¡Y listo! Tus notificaciones han sido actualizadas y personalizadas a tu gusto. Cada vez que realizar alguna operación, te llegará un aviso directamente a tu email asociado'],
-  video: ''
-}, {
-  titulo: "Activar/Desactivar Servicios Tarjeta de Débito y Crédito",
-  parrafo: "¿Quieres activar o desactivar tus servicios de Tarjeta de Credito o Debito pero no sabes como? Aquí te brindamos los pasos para hacerlo:",
-  respuestas: [" Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave", "En el menú, encontrarás la opción: “Servicios de mis tarjetas”, ingresar a esta opción", "Luego, haz click en “Mis Servicios de Tarjetas”", "Una vez ahí, podrás visualizar las diferentes tarjetas con las que cuentas, y podrás hacer click en el ícono de editar para configurarlas.", "Para Tarjetas de Débito encontrarás las siguientes opciones: “Compras en exterior“,“Compras por internet“ y “Disposición de efecto en el exterior“.", "Para Tarjetas de Crédito encontrarás las siguientes opciones: “Compras en el exterior“, “Compras por Internet“, “Disposición de efectivo“ y “Sobregiro“. </br></br>Recuerda, tus tarjetas BanBif vienen con todas las opciones desactivadas, por lo que será necesario que las configures si deseas realizar compras por internet o transferencias a través de aplicaciones como Plin o suscribirte a plataformas como Netflix, Disney, Spotify entre muchas más."],
+  titulo: "7. Paga tu Tarjeta de Crédito BanBif",
+  parrafo: "¡Pagos rápidos y desde casa! Conoce cómo pagar tu Tarjeta de Crédito BanBif desde tu app.",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Elige la opci\xF3n \u201DPagar\u201D", "Selecciona la opci\xF3n \u201DTarjeta de Cr\xE9dito BanBif\u201D.", "Elige la Tarjeta a pagar.", "Selecciona la moneda, el importe y la cuenta.\n      ", "\xA1Y listo! Pagaste tu Tarjeta de Cr\xE9dito BanBif al instante. "],
   video: ""
 }, {
-  titulo: "Transferencias 24/7",
+  titulo: "8. Paga otras Tarjetas de Crédito BanBif ",
+  parrafo: "¡Pagos rápidos y desde casa! Conoce cómo pagar tu Tarjeta de Crédito BanBif desde tu app.",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Elige la opci\xF3n \u201DPagar\u201D", "Selecciona la opci\xF3n \u201CMis Tarjetas BanBif\u201D.", "Digita la tarjeta a pagar.", "Selecciona el monto a pagar y la cuenta origen a debitar.\n      ", "\xA1Y listo! Pagaste tu Tarjeta de Cr\xE9dito BanBif al instante. "],
+  video: ""
+}, {
+  titulo: "9. Paga todas tus Tarjetas de Crédito de cualquier banco",
+  parrafo: "Descubre cómo realizar los pagos de tu Tarjeta de Crédito de cualquier banco a través de nuestra Banca por Internet:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Elige la opci\xF3n \u201DPagar\u201D", "Escoge la opci\xF3n \u201CTarjetas de Otros Bancos\u201D.", "Elige el banco, tarjeta, monto a pagar y cuenta a cargar.", "Confirma tu pago.", "\xA1Y listo!"],
+  video: ""
+}, {
+  titulo: "10. Aprende a realizar tus Pagos de Servicios",
+  parrafo: "Aprende a realizar tus pagos de servicios a través de la Banca por Internet. Sigue estos pasos:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", 'Elige la opción “Pagar”', 'Selecciona la opción “Servicios”.', "Busca el servicio que desees pagar", "Finalmente, ingresa tu código de pago (nro. de telefóno, documento, suministro, etc.)", 'Se te mostrará la deuda pendiente. En todo caso, indica el monto a cancelar.', "Selecciona el medio de pago", 'Continúa y confirma tu operación con la Clave SMS Token.', '¡Y listo! Ya realizaste tu operación'],
+  video: ''
+}, {
+  titulo: "11. Realiza tus transferencias",
   parrafo: "En BanBif puedes realizar tus transferencias las 24 horas del día, por ello te mostramos los pasos para hacerlo:",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en <a href="https://www.banbif.com.pe/holabank">www.banbif.com.pe/holabank</a> con tu número de DNI y clave.', "Selecciona la opción Transferir", "Puedes elegir entre transferir entre tus cuentas BanBif, a otras cuentas BanBif y otros bancos", "Completa la información solicitada (monto a transferir y cuenta de destino)", "Ingresa la clave token que te llegará por SMS o Email", "¡Y listo! Ya terminaste tu transferencia, recuerda que puedes realizarla a cualquier hora del día"],
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Selecciona la opci\xF3n \u201CTransferir\u201D.", "Puedes elegir entre transferir entre tus cuentas BanBif, a otras cuentas BanBif y otros bancos.", "Completa la informaci\xF3n solicitada (monto a transferir y cuenta de destino).", "Ingresa la clave token que te llegar\xE1 por SMS o Email.", "\xA1Y listo! Ya terminaste tu transferencia, recuerda que puedes realizarla a cualquier hora del d\xEDa."],
   video: ""
 }, {
-  titulo: "Abre una cuenta de Ahorro desde tu Banca por Internet ¡sin necesidad de ir al banco!",
-  parrafo: "Abrir una cuenta de ahorro es tan sencillo que puedes hacerlo desde tu Banca por Internet",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en  www.banbif.com.pe/holabank con tu número de DNI y clave', 'Elige la opción ”Menú”', 'Selecciona la opción ”Cuentas y Depósitos Click”', "Selecciona ”Abre cuentas de ahorro”", "Completa el requisito requerido de poseer únicamente la  nacionalidad peruana", 'Elige la cuenta que deseas abrir en la opción “Tipo de producto”. Por ejemplo: ”Cuenta Conveniente”', "Elige la cuenta de donde sacar tus fondos", 'Digita el monto de apertura', 'Selecciona “Continuar”', 'Valida tu correo donde llegará tu confirmación', 'Verifica los datos para tu nueva cuenta', 'Acepta las condiciones del contacto', 'Selecciona “Confirmar”', '¡Y listo! Ya cuentas con tu nueva Cuenta de ahorros'],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/E2gQ2Ltjv4o?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "12. Realiza tus pagos de préstamos",
+  parrafo: "¡Contamos con las herramientas para que pagues lo que necesites sin salir de tu casa!",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Elige la opci\xF3n \u201DPagar\u201D.", "Elige la opci\xF3n \u201DPr\xE9stamos\u201D", "Selecciona el pr\xE9stamo a pagar y la cuenta donde se cargar\xE1 el importe a pagar.", "Confirma los datos y \xA1listo! con eso ya completaste tu operaci\xF3n."],
+  video: ""
 }, {
-  titulo: "¿Qué hago si se me bloquea el usuario de Banca Digital?",
-  parrafo: "¿Cómo logro ingresar a mi Banca por Internet si se bloquea o me olvido mi usuario? Tranquilo, sigue estos pasos:",
-  respuestas: ['Ingresa a la Banca por Internet de BanBif en <a href="http://www.banbif.com.pe/holabank">www.banbif.com.pe/holabank</a>', "Elige la opción ¿Olvidaste tu contraseña o bloqueaste tu acceso?", "Completa y confirma tus datos en la Solicitud de Nueva Clave", "Se te enviará una contraseña temporal a tu correo personal que tienes registrado en BanBif", "Ingresa nuevamente a HOLAbank en la Banca por Internet usando la contraseña temporal recibida", "Una vez que ingreses, automáticamente te solicitará generar tu nueva contraseña"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Ia1tUEOoQvA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "13. Activa y desactiva tus servicios adicionales de Tarjetas",
+  parrafo: "¿Quieres activar o desactivar tus servicios adicionales de Tarjeta de Crédito o Débito? Aquí te enseñamos los pasos para hacerlo:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n: \u201CServicios de mis tarjetas\u201D.", "Luego haz clic en \u201CActivar o desactivar servicios y notificaciones de Tarjetas\u201D y luego en \u201CMis servicios de Tarjetas\u201D.", "Una vez all\xED, podr\xE1s visualizar las diferentes tarjetas con las que cuentas, y podr\xE1s hacer clic en el \xEDcono de editar para configurarlas.", "Para Tarjetas de D\xE9bito encontrar\xE1s las siguientes opciones: \u201CCompras en exterior\u201D, \u201CCompras por internet\u201D y \u201CDisposici\xF3n de efectivo en el exterior\u201D.", "Para Tarjetas de Cr\xE9dito encontrar\xE1s las siguientes opciones: \u201CCompras en el exterior\u201D, \u201CCompras por Internet\u201D, \u201CDisposici\xF3n de efectivo\u201D y \u201CSobregiro\u201D.\n      <br/><br/>\n      Recuerda, tus tarjetas BanBif vienen con todas las opciones desactivadas, por lo que ser\xE1 necesario que las configures si deseas realizar compras por internet o transferencias a trav\xE9s de aplicaciones como PLIN o suscribirte a plataformas como Netflix, Disney, Spotify entre muchas m\xE1s."],
+  video: ""
 }, {
-  titulo: "Abre tu cuenta sueldo genial y CTS",
-  parrafo: "Con HOLABank puedes abrir tu Cuenta Sueldo Genial y CTS desde la comodidad de tu hogar.",
-  respuestas: ['Ingresa a la web pública de BanBif en <a href="https://www.banbif.com.pe/Personas">www.banbif.com.pe/Personas</a>', "Selecciona la opción Quiero ser cliente", "Elige la opción Cuenta Sueldo y/o CTS y dale click en Obtener ahora", "Selecciona la moneda y luego las cuentas que deseas abrir", "Completa tus datos personales </br></br>Si ya eres cliente BanBif:</br></br>", "Ingresa los 4 últimos dígitos de tu última Tarjeta de Débito", "Ingresa tus datos laborales", "Verifica tu identidad", "¡Y listo! Ya creaste tu Cuenta Sueldo Genial </br></br>Si no eres cliente BanBif:</br></b>", "Verifica tu identidad", "Verifica tus datos personales", "Completa tus datos laborales y selecciona la oficina BanBif de tu preferencia", "¡Y listo! Ya creaste tu Cuenta Sueldo Genial"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Bu_0m8aDQnY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "14. Configura tus notificaciones de consumo en Tarjetas",
+  parrafo: "Para poder configurar y personalizar las notificaciones de consumo en tus tarjetas BanBif. Solo debes seguir los siguientes pasos:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CAdministrar\u201D.", "Haz clic en \u201CNotificaciones\u201D", "Ahora podr\xE1s observar las notificaciones disponibles para cada uno de tus productos.\n      ", "En el men\xFA desplegable de cada producto, selecciona la opci\xF3n \u201CEditar\u201D", "Configura y personaliza los distintos campos que deseas visualizar para tus notificaciones.", "Haz clic en \u201CConfirmar\u201D.", "\xA1Y listo! Tus notificaciones han sido actualizadas y personalizadas a tu gusto. Cada vez que realizar alguna operaci\xF3n, te llegar\xE1 un aviso directamente a tu email asociado."],
+  video: ""
 }, {
-  titulo: "Abre una cuenta de Ahorros Digital",
-  parrafo: "Con HOLABank puedes abrir tu Cuenta de Ahorros Digital desde la comodidad de tu hogar.",
-  respuestas: ['Ingresa a la web pública de BanBif en <a href="https://www.banbif.com.pe/Personas">www.banbif.com.pe/Personas</a>', 'Selecciona ”Cuenta de Ahorros Digital”', "Selecciona la moneda (S/. o $)", "Completa tus datos personales", "Ingresa el código que recibiste en tu correo electrónico. Si no lo recibes, verifica en tu bandeja de no deseados.", "Ingresa los datos de seguridad", "Confirma tus datos", "Completa tus datos laborales", "Crea una contraseña segura", "¡Y listo! Ya tienes tu cuenta de Ahorros Digital. Ingresa a HOLAbank desde tu BanBif App y activa tu cuenta"],
-  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/znOSsoXh4Qg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  titulo: "15. Conoce cómo visualizar tus Estados de Cuenta",
+  parrafo: "Aprende a revisar los estados de cuenta de tus Tarjetas de Crédito con los siguientes pasos:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Selecciona el producto que desees visualizar.", "Haz clic en el bot\xF3n de descarga que se encuentra en la parte derecha superior de tu cuenta.", "Exporta tus estados de cuenta en versi\xF3n PDF, Excel o CSV.", "\xA1Y listo! Ya tienes a la mano tus Estados de Cuenta."],
+  video: ""
 }, {
-  titulo: "Operaciones Programadas ",
+  titulo: "16. Haz tus retiros del cajero sin Tarjeta",
+  parrafo: "Con HOLAbank puedes programar tus retiros desde tu casa. Aprende cómo a través de estos pasos: pasos:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CRetiros Sin Tarjeta\u201D.", "Elige la opci\xF3n \u201CPara m\xED\u201D o \u201CPara otra persona\u201D. En caso sea para otra persona, se deber\xE1 ingresar el n\xFAmero de documento del beneficiario.", "Selecciona la cuenta a cargo de la que quieres retirar.", "Coloca la moneda y el monto a retirar.", "Ingresa la clave SMS/Email token que te llegar\xE1.", "Selecciona la opci\xF3n \u201CObtener Clave Temporal\u201D.", "Anota tu Clave Temporal o comp\xE1rtela v\xEDa SMS o correo electr\xF3nico.", "Ya en el cajero BanBif, selecciona la opci\xF3n \u201CRetirar sin Tarjeta\u201D.", "Ingresa tu n\xFAmero de celular y la Clave Temporal.", "\xA1Y listo! Ya puedes retirar tu dinero sin tarjeta\n      <br/><br/>\n      De tratarse el retiro para otras personas: Solo elige la opci\xF3n \u201CPara otra persona\u201D e ingresa su n\xFAmero de celular, luego sigue los mismos pasos descritos anteriormente.\n      "],
+  video: ""
+}, {
+  titulo: "17. Conoce nuestro Ahorro Vuelto",
+  parrafo: "Disfruta de este servicio que te permitirá redondear tus compras generando un ahorro automático con este redondeo:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA e ingresa a \u201COpciones de ahorro\u201D. ", "Selecciona la opci\xF3n \u201CAhorro Vuelto\u201D.", "Completa todos los campos requeridos con tu informaci\xF3n.", "\xA1Y listo! Ya puedes ahorrar de forma muy sencilla mientras compras; adem\xE1s, el dinero que vas guardando en tu otra cuenta de ahorros va generando intereses"],
+  video: ""
+}, {
+  titulo: "18. Abre una cuenta Depósito a Plazo con nosotros",
+  parrafo: "Disfruta de este servicio que te permitirá redondear tus compras generando un ahorro automático con este redondeo:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201DCuentas Click\u201D.", "Selecciona la opci\xF3n \u201DAbrir Dep\xF3sito a Plazo\u201D.", "Despliega el tipo de producto que vas a crear.", "Selecciona la moneda de tu Dep\xF3sito a Plazo.", "Ingresa el monto con el que deseas abrir tu Dep\xF3sito a Plazo y elige el plazo.", "Elige la cuenta de donde se cargar\xE1 el importe para tu Dep\xF3sito a Plazo.", "Confirma los datos.", "Valida el correo a donde te llegar\xE1n los datos de tu Dep\xF3sito a Plazo.", "Revisa la simulaci\xF3n.", "Acepta las condiciones del contrato.", "Confirma la apertura de tu Dep\xF3sito a Plazo \xA1y listo!."],
+  video: ""
+}, {
+  titulo: "19. Abre una Cuenta de Ahorro Digital sin necesidad de ir al banco",
+  parrafo: "Abrir una cuenta de ahorro es tan sencillo que puedes hacerlo desde tu Banca por Internet:",
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201CCuentas y Dep\xF3sitos Click\u201D.", "Selecciona la opci\xF3n \u201DCuentas y Dep\xF3sitos Click\u201D.", "Selecciona la opci\xF3n \u201DAbre cuentas de ahorro\u201D.", "Completa el requisito requerido de poseer \xFAnicamente la nacionalidad peruana.", "Elige la cuenta que deseas abrir en la opci\xF3n \u201CTipo de producto\u201D. Por ejemplo: \u201DCuenta Conveniente\u201D.", "Elige la cuenta de donde sacar tus fondos.", "Digita el monto de apertura.", "Selecciona \u201CContinuar\u201D.", "Valida tu correo donde llegar\xE1 tu confirmaci\xF3n.", "Verifica los datos para tu nueva cuenta.", "Acepta las condiciones del contacto.", "Selecciona \u201CConfirmar\u201D.", "\xA1Y listo! Ya cuentas con tu nueva Cuenta de ahorros."],
+  video: ""
+}, {
+  titulo: "20. Programa tus operaciones",
   parrafo: "Te mostramos cómo hacerlo desde la Banca por Internet:",
-  respuestas: ['Inicia sesión en la Banca por Internet de BanBif en <a href="https://www.banbif.com.pe/holabank">www.banbif.com.pe/holabank</a>  con tu número de DNI y clave', "Ve a la opción Operaciones Frecuentes y Programadas ubicada en el menú ", "Selecciona la opción Operaciones Programadas", "Da clic en programar nueva transacción ", "Elige la opción que desees, puedes programar: Transferencias, Pagos de tarjetas, Pago de préstamos o Pago de servicios", "Configura la frecuencia de ejecución del pago", "Continúa el proceso", "¡Y listo! Ya tienes tus operaciones programadas y se ejecutarán en las fechas que seleccionaste"],
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y ve a la opci\xF3n \u201COperaciones Frecuentes y Programadas\u201D.", "Selecciona la opci\xF3n \u201COperaciones Programadas\u201D.", "Da clic en programar nueva transacci\xF3n.", "Elige la opci\xF3n que desees. Puedes programar: Transferencias, Pagos de tarjetas, Pago de pr\xE9stamos o Pago de servicios.", "Configura la frecuencia de ejecuci\xF3n del pago.", "Contin\xFAa el proceso.", "\xA1Y listo! Ya tienes tus operaciones programadas y se ejecutar\xE1n en las fechas que seleccionaste."],
   video: ""
 }, {
-  titulo: "Historial de Transacciones",
+  titulo: "21. Revisa tu historial de transacciones",
   parrafo: "",
-  respuestas: ['Ingresa a la Banca por Internet de BanBif en <a href="https://www.banbif.com.pe/holabank">www.banbif.com.pe/holabank</a> con tu usuario y contraseña', "Selecciona la opción Operaciones Frecuentes y Programadas", 'Selecciona la opción ”Historial”', "Puede configurar los filtros para clasificar las operaciones que deseas ver, por ejemplo, rangos de fechas, estado de la transacción, operaciones frecuentes, etc.", "¡Y listo! Ya puedes revisar todo el historial de transacciones que realizaste </br></br>Si lo deseas, puedes descargar tu historial en formato pdf usando la opción “Descarga” que se encuentra en la parte superior derecha."],
+  respuestas: ["Inicia sesi\xF3n en la Banca por Internet <a href=\"https://www.banbif.com.pe\">www.banbif.com.pe</a> en la secci\xF3n HOLAbank con tu n\xFAmero de documento y clave", "Ingresa a la barra de men\xFA y selecciona la opci\xF3n \u201COperaciones Frecuentes y Programadas\u201D.", "Selecciona la opci\xF3n \u201DHistorial\u201D.", "Puede configurar los filtros para clasificar las operaciones que deseas ver, por ejemplo, rangos de fechas, estado de la transacci\xF3n, operaciones frecuentes, etc.", "\xA1Y listo! Ya puedes revisar todo el historial de transacciones que realizaste.\n      Si lo deseas, puedes descargar tu historial en formato pdf usando la opci\xF3n \u201CDescarga\u201D que se encuentra en la parte superior derecha."],
   video: ""
 }];

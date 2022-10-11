@@ -9,8 +9,17 @@ let tituloTuto = document.getElementById('tituloTutorial')
 tituloTuto.innerText = 'Banca Digital'
 
 let descriptiontuto = document.getElementById('descriptionTutorial')
-descriptiontuto.innerHTML= `La banca digital en BanBif está compuesta por dos canales: BanBif App y Banca por Internet.
-        <br/>El banco en tus manos a toda hora, todos los días del año y en cualquier  lugar.`
+descriptiontuto.innerHTML= `La Banca por Internet de BanBif es uno de los canales principales de nuestro mundo digital HOLAbank que lo pueden encontrar a través de nuestra página web www.banbif.com.pe para que puedas usar y operar dentro nuestra Banca por Internet de manera gratuita. En caso aún no estés afiliado a este canal digital, aquí te enseñamos cómo hacerlo:
+<br/>
+<ul class="tutoriales__pasos">
+    <li>Ingresa a www.banbif.com.pe y selecciona el botón de “HOLAbank”.</li>
+    <li>Luego, ingresa a “¿No tienes un usuario de Banca por Internet? Registrate aquí”</li>
+    <li>Completa los datos que te piden y listo. Puedes usar el mismo usuario y clave para ingresar a nuestra BanBif App.
+    </li>
+</ul>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4F09unSJclk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`
 
 const seleccionandoOpcion = () => {
     let selector = document.getElementById('opcion')
@@ -103,8 +112,16 @@ const activaDigital = () => {
     botonApp.classList.remove('botonActivo')
     tituloTuto.innerText = ''
     tituloTuto.innerText = 'Banca Digital'
-    descriptiontuto.innerHTML= `La banca digital en BanBif está compuesta por dos canales: BanBif App y Banca por Internet.
-        <br/>El banco en tus manos a toda hora, todos los días del año y en cualquier  lugar.
+    descriptiontuto.innerHTML= `La Banca por Internet de BanBif es uno de los canales principales de nuestro mundo digital HOLAbank que lo pueden encontrar a través de nuestra página web www.banbif.com.pe para que puedas usar y operar dentro nuestra Banca por Internet de manera gratuita. En caso aún no estés afiliado a este canal digital, aquí te enseñamos cómo hacerlo:
+        <br/>
+        <ul class="tutoriales__pasos">
+            <li>Ingresa a www.banbif.com.pe y selecciona el botón de “HOLAbank”.</li>
+            <li>Luego, ingresa a “¿No tienes un usuario de Banca por Internet? Registrate aquí”</li>
+            <li>Completa los datos que te piden y listo. Puedes usar el mismo usuario y clave para ingresar a nuestra BanBif App.
+            </li>
+        </ul>
+        <br/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4F09unSJclk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         `
     contenedor.innerHTML = ''
     insertaPreguntas(dataDigital)
@@ -119,14 +136,18 @@ const activaApp = () => {
     tituloTuto.innerText = 'BanBif App'
     contenedor.innerHTML = ''
     descriptiontuto.innerHTML= `
-        <p>Realiza tus operaciones de forma segura desde donde estés. Ingresa con tu DNI y tu clave. <br/>
-        ¿Aún no la tienes? Descárgala en tres simples pasos desde tu tienda de aplicaciones favoritas: </p>
-        <ul class="tutoriales__pasos">
-        <li>Instálala desde Google Play, Apple Store o App Gallery</li>
-        <li>Regístrate con tu DNI, una tarjeta de crédito o débito, la clave de cajero de la tarjeta que estés utilizando para registrarte, establece una contraseña segura y</li>
-        <li>¡Listo! Empieza a utilizarla</li>
-        </ul>
-        Usar y operar en la BanBif App es totalmente gratuito. Pero ten en cuenta que algunas operaciones como transferencias interbancarias o pagos de tarjetas de otros bancos pueden tener algún costo adicional como el cobro de ITF o alguna comisión. 
+    Realiza tus operaciones de forma segura desde donde estés. Ingresa con tu DNI y
+    tu clave. ¿Aún no la tienes? Descárgala en tres simples pasos desde tu tienda de
+    aplicaciones favoritas:
+    <ul class="tutoriales__pasos">
+      <li>Instala nuestra App desde Google Play, Apple Store o App Gallery</li>
+      <li>
+        Regístrate con tu DNI, una tarjeta de crédito o débito, la clave de cajero
+        de la tarjeta que estés utilizando para registrarte, establece una
+        contraseña segura ¡y listo! Puedes usar y operar nuestra BanBif App de
+        manera gratuita.
+      </li>
+    </ul> 
         `
     insertaPreguntas(dataApp)
 }
