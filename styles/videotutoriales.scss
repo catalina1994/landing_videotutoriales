@@ -151,26 +151,26 @@ $gris: #868686;
             text-decoration: none;
         }
         & .flechaDespliegue {
-            width: 25px;
-            min-width: 25px;
-            height: 17px;
-            min-height: 17px;
+            width: 14px;
+            min-width: 14px;
+            height: 14px;
+            min-height: 14px;
             border: solid $cyan;
-            border-width: 0 5px 5px 0;
-            border-right: transparent;
+            border-width:  4px 0 0 4px ;
+            // border-right: transparent;
             border-radius: 3px;
-            transform: rotate(0);
+            transform: rotate(45deg);
             transition: all linear 200ms;
         }
     }
     & .collapsed {
         & > .flechaDespliegue {
-            width: 17px;
-            min-width: 17px;
-            height: 17px;
-            min-height: 17px;
+            width: 14px;
+            min-width: 14px;
+            height: 14px;
+            min-height: 14px;
             border: solid $cyan;
-            border-width: 0 5px 5px 0;
+            border-width: 0 4px 4px 0;
             border-radius: 3px;
             transform: rotate(45deg);
             transition: all linear 200ms;

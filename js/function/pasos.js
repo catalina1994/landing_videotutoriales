@@ -6,7 +6,7 @@ var botonApp = document.getElementById('banbifApp');
 var contenedor = document.getElementsByClassName('tutorialesContenedor')[0]; //sección para tutoriales
 
 var tituloTuto = document.getElementById('tituloTutorial');
-tituloTuto.innerText = 'Banca Digital';
+tituloTuto.innerText = 'Banca por Internet';
 var descriptiontuto = document.getElementById('descriptionTutorial');
 descriptiontuto.innerHTML = "La Banca por Internet de BanBif es uno de los canales principales de nuestro mundo digital HOLAbank que lo pueden encontrar a trav\xE9s de nuestra p\xE1gina web www.banbif.com.pe para que puedas usar y operar dentro nuestra Banca por Internet de manera gratuita. En caso a\xFAn no est\xE9s afiliado a este canal digital, aqu\xED te ense\xF1amos c\xF3mo hacerlo:\n<br/>\n<ul class=\"tutoriales__pasos\">\n    <li>Ingresa a www.banbif.com.pe y selecciona el bot\xF3n de \u201CHOLAbank\u201D.</li>\n    <li>Luego, ingresa a \u201C\xBFNo tienes un usuario de Banca por Internet? Registrate aqu\xED\u201D</li>\n    <li>Completa los datos que te piden y listo. Puedes usar el mismo usuario y clave para ingresar a nuestra BanBif App.\n    </li>\n</ul>\n<br/>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4F09unSJclk?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n";
 
@@ -16,7 +16,7 @@ var seleccionandoOpcion = function seleccionandoOpcion() {
 
   if (seleccionado == '0') {
     tituloTuto.innerText = '';
-    tituloTuto.innerText = 'Banca Digital';
+    tituloTuto.innerText = 'Banca por Internet';
     contenedor.innerHTML = '';
     insertaPreguntas(dataDigital);
   } else {
@@ -95,7 +95,7 @@ var activaDigital = function activaDigital() {
   botonDigital.classList.add('botonActivo');
   botonApp.classList.remove('botonActivo');
   tituloTuto.innerText = '';
-  tituloTuto.innerText = 'Banca Digital';
+  tituloTuto.innerText = 'Banca por Internet';
   descriptiontuto.innerHTML = "La Banca por Internet de BanBif es uno de los canales principales de nuestro mundo digital HOLAbank que lo pueden encontrar a trav\xE9s de nuestra p\xE1gina web www.banbif.com.pe para que puedas usar y operar dentro nuestra Banca por Internet de manera gratuita. En caso a\xFAn no est\xE9s afiliado a este canal digital, aqu\xED te ense\xF1amos c\xF3mo hacerlo:\n        <br/>\n        <ul class=\"tutoriales__pasos\">\n            <li>Ingresa a www.banbif.com.pe y selecciona el bot\xF3n de \u201CHOLAbank\u201D.</li>\n            <li>Luego, ingresa a \u201C\xBFNo tienes un usuario de Banca por Internet? Registrate aqu\xED\u201D</li>\n            <li>Completa los datos que te piden y listo. Puedes usar el mismo usuario y clave para ingresar a nuestra BanBif App.\n            </li>\n        </ul>\n        <br/>\n        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4F09unSJclk?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n        ";
   contenedor.innerHTML = '';
   insertaPreguntas(dataDigital);

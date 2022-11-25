@@ -6,7 +6,7 @@ const botonApp = document.getElementById('banbifApp')
 const contenedor = document.getElementsByClassName('tutorialesContenedor')[0] //sección para tutoriales
 
 let tituloTuto = document.getElementById('tituloTutorial')
-tituloTuto.innerText = 'Banca Digital'
+tituloTuto.innerText = 'Banca por Internet'
 
 let descriptiontuto = document.getElementById('descriptionTutorial')
 descriptiontuto.innerHTML= `La Banca por Internet de BanBif es uno de los canales principales de nuestro mundo digital HOLAbank que lo pueden encontrar a través de nuestra página web www.banbif.com.pe para que puedas usar y operar dentro nuestra Banca por Internet de manera gratuita. En caso aún no estés afiliado a este canal digital, aquí te enseñamos cómo hacerlo:
@@ -27,7 +27,7 @@ const seleccionandoOpcion = () => {
 
     if (seleccionado == '0') {
         tituloTuto.innerText = ''
-        tituloTuto.innerText = 'Banca Digital'        
+        tituloTuto.innerText = 'Banca por Internet'        
         contenedor.innerHTML = ''
         insertaPreguntas(dataDigital)
     } else {

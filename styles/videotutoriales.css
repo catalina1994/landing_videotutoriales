@@ -181,27 +181,26 @@
 }
 
 .tutoriales__nombre .flechaDespliegue {
-  width: 25px;
-  min-width: 25px;
-  height: 17px;
-  min-height: 17px;
+  width: 14px;
+  min-width: 14px;
+  height: 14px;
+  min-height: 14px;
   border: solid #20a6ff;
-  border-width: 0 5px 5px 0;
-  border-right: transparent;
+  border-width: 4px 0 0 4px;
   border-radius: 3px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   -webkit-transition: all linear 200ms;
   transition: all linear 200ms;
 }
 
 .tutoriales .collapsed > .flechaDespliegue {
-  width: 17px;
-  min-width: 17px;
-  height: 17px;
-  min-height: 17px;
+  width: 14px;
+  min-width: 14px;
+  height: 14px;
+  min-height: 14px;
   border: solid #20a6ff;
-  border-width: 0 5px 5px 0;
+  border-width: 0 4px 4px 0;
   border-radius: 3px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
